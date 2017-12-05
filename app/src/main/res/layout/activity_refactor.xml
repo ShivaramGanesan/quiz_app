@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sanjaye.quiz.Refactor">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/listviewbackground" >
+
+        <Button
+            android:id="@+id/about_Us"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/listviewbackground"
+            android:divider="@drawable/divider"
+            android:text="About us"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/learn"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/about_Us"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/listviewbackground"
+            android:divider="@drawable/divider"
+            android:text="Learn"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/test"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/learn"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/listviewbackground"
+            android:divider="@drawable/divider"
+            android:text="Test"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/exit"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/test"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/listviewbackground"
+            android:divider="@drawable/divider"
+            android:text="Exit"
+            android:textStyle="italic" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

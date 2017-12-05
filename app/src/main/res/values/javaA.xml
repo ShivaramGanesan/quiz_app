@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="javaA">
+        <item>char</item>
+        <item>keyword</item>
+        <item>String</item>
+        <item>Static</item>
+        <item>Object Copy()</item>
+        <item>+</item>
+        <item>==</item>
+        <item>type casting</item>
+        <item>file reader</item>
+        <item>Upper </item>
+        <item>void kill()</item>
+        <item>Object</item>
+        <item>Encapsulation</item>
+        <item>writeDiskcache()</item>
+        <item>last</item>
+    </string-array>
+</resources>

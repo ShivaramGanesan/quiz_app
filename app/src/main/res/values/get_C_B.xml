@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="get_C_B">
+        <item>w</item>
+        <item>memory.h</item>
+        <item>pf is a pointer</item>
+        <item>SEEK_CUR</item>
+        <item>round-off(5.77)</item>
+        <item>Hexadecimal system</item>
+        <item>near: 4, far: 2, huge: 8</item>
+        <item>--1</item>
+        <item>calloc</item>
+        <item>-a </item>
+        <item>void kill()</item>
+
+        <item>free(var-name);</item>
+        <item>b</item>
+        <item>Diskcache()</item>
+        <item>static</item>
+    </string-array>
+</resources>

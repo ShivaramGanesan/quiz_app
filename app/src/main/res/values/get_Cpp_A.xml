@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="get_Cpp_A">
+        <item>storage</item>
+        <item> when new operator can;t occupy memory</item>
+        <item>float</item>
+        <item>int_country</item>
+        <item>statically typed language</item>
+        <item> abstract</item>
+        <item> Throw by value catch by reference</item>
+        <item> They begin with a hash symbol</item>
+        <item>logical operator</item>
+        <item> type definition</item>
+        <item> reposition</item>
+        <item>trucating;</item>
+        <item>appending</item>
+        <item>retrive?</item>
+        <item>calloff</item>
+    </string-array>
+</resources>

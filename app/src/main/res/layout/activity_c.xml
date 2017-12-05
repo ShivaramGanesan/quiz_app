@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sanjaye.quiz.C">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/c_Timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:text="check"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/c_tvxx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="xx"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/c_tvyy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="yy"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="60"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/c_tvQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext"
+            android:text="question"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:id="@+id/Layout1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/listviewbackground"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/listviewbackground"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/listviewbackground"
+                        android:divider="@drawable/divider"
+                        android:text="A"
+                        android:textColor="#000000"
+                        android:textStyle="italic|bold" />
+
+                    <Button
+                        android:id="@+id/c_getA"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/listviewbackground"
+                        android:divider="@drawable/divider"
+                        android:dividerHeight="7dp"
+                        android:listSelector="@drawable/sha"
+                        android:textColor="#000000"
+                        android:textStyle="italic|bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/listviewbackground"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/listviewbackground"
+                        android:divider="@drawable/divider"
+                        android:text="B"
+                        android:textColor="#000000"
+                        android:textStyle="italic|bold" />
+
+                    <Button
+                        android:id="@+id/c_getB"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/listviewbackground"
+                        android:divider="@drawable/divider"
+                        android:dividerHeight="7dp"
+                        android:listSelector="@drawable/sha"
+                        android:textColor="#000000"
+                        android:textStyle="italic|bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/listviewbackground"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/listviewbackground"
+                        android:divider="@drawable/divider"
+                        android:text="C"
+                        android:textColor="#000000"
+                        android:textStyle="italic|bold" />
+
+                    <Button
+                        android:id="@+id/c_getC"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/listviewbackground"
+                        android:divider="@drawable/divider"
+                        android:dividerHeight="7dp"
+                        android:listSelector="@drawable/sha"
+                        android:textColor="#000000"
+                        android:textStyle="italic|bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/listviewbackground"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/listviewbackground"
+                        android:divider="@drawable/divider"
+                        android:text="D"
+                        android:textColor="#000000"
+                        android:textStyle="italic|bold" />
+
+                    <Button
+                        android:id="@+id/c_getD"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/listviewbackground"
+                        android:divider="@drawable/divider"
+                        android:dividerHeight="7dp"
+                        android:listSelector="@drawable/sha"
+                        android:textColor="#000000"
+                        android:textStyle="italic|bold" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/listviewbackground"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/c_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:text="Previous"
+                android:textColor="#000000"
+                android:textStyle="italic|bold" />
+
+            <Button
+                android:id="@+id/c_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:text="Next"
+                android:textColor="#000000"
+                android:textStyle="italic|bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

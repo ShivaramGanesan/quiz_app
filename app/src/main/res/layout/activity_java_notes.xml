@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sanjaye.quiz.JavaNotes">
+
+
+    <TextView
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/listviewbackground"
+        android:paddingLeft="100dp"
+        android:text="Java Notes"
+        android:textColor="#000000"
+        android:textSize="35sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/relative" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/listviewbackground"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:text="Java is an object-oriented, cross platform, multi-purpose programming language produced by Sun Microsystems.it was developed to be a machine independent web technology. It was based on C and C++ syntax to make it easy for programmers from those communities to learn. Since then, it has earned a prominent place in the world of computer programming."
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dip"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:listSelector="@drawable/sha" >
+            </View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:text="It was designed with a bias toward system programming and embedded, resource-constrained and large systems, with performance, efficiency and flexibility of use as its design highlights."
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dip"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:listSelector="@drawable/sha" >
+            </View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:text="Platform independence - Many languages are compatible with only one platform. Java was specifically designed so that it would run on any computer, regardless if it was running Windows, Linux, Mac, Unix or any of the other operating systems."
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dip"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:listSelector="@drawable/sha" >
+            </View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:text="Simple and easy to use - Java&apos;s creators tried to design it so code could be written efficiently and easily."
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dip"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:listSelector="@drawable/sha" >
+            </View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:text="Multi-functional - Java can produce many applications from command-line programs to applets to Swing windows (basically, sophisticated graphical user interfaces)."
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dip"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:listSelector="@drawable/sha" >
+            </View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:text="Java does have some drawbacks. Since it has automated garbage collection, it can tend to use more memory than other similar languages. There are often implementation differences on different platforms, which have led to Java being described as a write once, test everywhere system."
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dip"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:listSelector="@drawable/sha" >
+            </View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:text="tandard libraries provide a generic way to access host-specific features such as graphics, threading, and networking."
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dip"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:listSelector="@drawable/sha" >
+            </View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:text=", just-in-time (JIT) compilers that compile bytecodes to machine code during runtime were introduced from an early stage. Java itself is platform-independent, and is adapted to the particular platform it is to run on by a Java virtual machine for it, which translates the Java bytecode into the platform&apos;s machine language."
+                android:textColor="#000000"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

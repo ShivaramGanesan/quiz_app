@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sanjaye.quiz.CPlusNotes">
+    <TextView
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/listviewbackground"
+        android:paddingLeft="100dp"
+        android:text="C++ Notes"
+        android:textColor="#000000"
+        android:textSize="35sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/relative" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/listviewbackground"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:text="C++ is a general-purpose programming language. It has imperative, object-oriented and generic programming features, while also providing facilities for low-level memory manipulation."
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dip"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:listSelector="@drawable/sha" >
+            </View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:text="It was designed with a bias toward system programming and embedded, resource-constrained and large systems, with performance, efficiency and flexibility of use as its design highlights."
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dip"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:listSelector="@drawable/sha" >
+            </View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:text="C++ has also been found useful in many other contexts, with key strengths being software infrastructure and resource-constrained applications,"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dip"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:listSelector="@drawable/sha" >
+            </View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:text="Another aspect of C that&apos;s worth mentioning here is that it is, to put it bluntly, a bit dangerous. C does not, in general, try hard to protect a programmer from mistakes. If you write a piece of code which will (through some oversight of yours) do something wildly different from what you intended it to do"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dip"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:listSelector="@drawable/sha" >
+            </View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:text="C++ is a compiled language, with implementations of it available on many platforms and provided by various organizations, including the FSF, LLVM, Microsoft, Intel and IBM."
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dip"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:listSelector="@drawable/sha" >
+            </View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:text="Memory addresses on most modern computers are either 32-bit or 64-bit unsigned integers, though this may vary with particular computer architectures. ( Ignoring segmentation and paging and other low-level memory details beyond the scope of this course. )"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dip"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:listSelector="@drawable/sha" >
+            </View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:text="Encapsulation is the hiding of information to ensure that data structures and operators are used as intended and to make the usage model more obvious to the developer. C++ provides the ability to define classes and functions as its primary encapsulation mechanisms. Within a class, members can be declared as either public, protected, or private to explicitly enforce encapsulation."
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dip"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:listSelector="@drawable/sha" >
+            </View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:text="The OO principle is that all of the functions (and only the functions) that access the internal representation of a type should be encapsulated within the type definition. C++ supports this (via member functions and friend functions), but does not enforce it: the programmer can declare parts or all of the representation of a type to be public, and is allowed to make public entities that are not part of the representation of the type. "
+                android:textColor="#000000"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

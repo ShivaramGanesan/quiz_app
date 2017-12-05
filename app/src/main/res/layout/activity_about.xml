@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sanjaye.quiz.About">
+
+    <TextView
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/listviewbackground"
+        android:paddingLeft="100dp"
+        android:text="About US"
+        android:textColor="#000000"
+        android:textSize="35sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/relative" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/listviewbackground"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:text="a test of knowledge, especially as a competition between individuals or teams as a form of entertainment."
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dip"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:listSelector="@drawable/sha" >
+            </View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:text="he teaser view shows the quiz description, you could use views along with the quiz views module to list all the quizzes with a description."
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dip"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:listSelector="@drawable/sha" >
+            </View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:text="you cannot have all quiz questions on one page, but you can probably rig up something in views to make the quiz description appear on the first quiz question page. The title should already be there."
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dip"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:listSelector="@drawable/sha" >
+            </View>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

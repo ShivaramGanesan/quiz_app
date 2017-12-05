@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sanjaye.quiz.CNotes">
+
+    <TextView
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/listviewbackground"
+        android:paddingLeft="100dp"
+        android:text="C Notes"
+        android:textColor="#000000"
+        android:textSize="35sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/relative" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/listviewbackground"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:text="C is sometimes referred to as a ``high-level assembly language.&apos;&apos; Some people think that&apos;s an insult, but it&apos;s actually a deliberate and significant aspect of the language."
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dip"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:listSelector="@drawable/sha" >
+            </View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:text="A programming language is a tool, and no tool can perform every task unaided. If you&apos;re building a house, and I&apos;m teaching you how to use a hammer, and you ask how to assemble rafters and trusses into gables, that&apos;s a legitimate question"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dip"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:listSelector="@drawable/sha" >
+            </View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:text="C imposes relatively few built-in ways of doing things on the programmer. Some common tasks, such as manipulating strings, allocating memory, and doing input/output (I/O), are performed by calling on library functions. "
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dip"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:listSelector="@drawable/sha" >
+            </View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:text="Another aspect of C that&apos;s worth mentioning here is that it is, to put it bluntly, a bit dangerous. C does not, in general, try hard to protect a programmer from mistakes. If you write a piece of code which will (through some oversight of yours) do something wildly different from what you intended it to do"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dip"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:listSelector="@drawable/sha" >
+            </View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:text="All information accessible to a running computer program must be stored somewhere in the computer&apos;s memory. ( RAM chips. )"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dip"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:listSelector="@drawable/sha" >
+            </View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:text="Memory addresses on most modern computers are either 32-bit or 64-bit unsigned integers, though this may vary with particular computer architectures. ( Ignoring segmentation and paging and other low-level memory details beyond the scope of this course. )"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dip"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:listSelector="@drawable/sha" >
+            </View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:text="Pointer variables must specify what kind of data they point to, i.e. the type of data for which they hold the address. This becomes very important when the pointer variables are used."
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dip"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:listSelector="@drawable/sha" >
+            </View>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/listviewbackground"
+                android:divider="@drawable/divider"
+                android:text="Normally pointers should only hold addresses of the types of data that they are declared to point to. I.e. an int pointer ( int * ) should hold the address of an int, and a double pointer ( double * ) should hold the address of a double."
+                android:textColor="#000000"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

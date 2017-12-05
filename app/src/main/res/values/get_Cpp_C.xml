@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="get_Cpp_C">
+        <item>Friend</item>
+        <item> When type requested for new operation </item>
+        <item>int</item>
+        <item>. int_Country(Country obj)</item>
+        <item>  Both Statically and dynamically typed language</item>
+        <item> Dynamic</item>
+        <item> catch by value</item>
+        <item> integral part </item>
+        <item>test condition</item>
+        <item> function definition</item>
+        <item> terminate</item>
+        <item>end</item>
+        <item>abort</item>
+        <item>compile time</item>
+        <item>objects</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="get_C_D">
+        <item>A</item>
+        <item>stdio.h</item>
+        <item> None of the above</item>
+        <item>SEEK_END</item>
+        <item>floor(5.77)</item>
+        <item>Both, Octal  Decimal</item>
+        <item>near: 4, far: 0, huge: 0</item>
+        <item>--2</item>
+        <item>resize</item>
+        <item>-out</item>
+        <item>void kill()</item>
+        <item>erase(var-name);</item>
+        <item>Bin</item>
+        <item>Disk()</item>
+        <item>final</item>
+    </string-array>
+
+</resources>

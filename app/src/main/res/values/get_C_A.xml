@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="get_C_A">
+        <item>r</item>
+        <item> stdlib.h</item>
+        <item> pf is a pointer of a function which return int</item>
+        <item>SEEK_SET</item>
+        <item> ceil(5.77)</item>
+        <item> Yes</item>
+        <item> Near: 2, far: 4, huge: 7</item>
+        <item> strnset()</item>
+        <item>-1</item>
+        <item> malloc</item>
+        <item> static</item>
+        <item>remove(var-name);</item>
+        <item>a</item>
+        <item>write?</item>
+        <item>void</item>
+    </string-array>
+
+</resources>

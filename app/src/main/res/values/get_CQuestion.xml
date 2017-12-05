@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="get_C_Question">
+        <item>Identify the incorrect file opening mode from the following.</item>
+        <item>Which header file supports the functions - malloc() and calloc()?</item>
+        <item> What does the “pf” indicate</item>
+        <item>Identify the invalid constant used in fseek() function</item>
+        <item>  How to round-off a value “5.77” to 6.0?</item>
+        <item> In Decimal system you can convert the binary number 1011011111000101 very easily.</item>
+        <item>In DOS, how many bytes exist for near, far and huge pointers?</item>
+        <item>the function that is most appropriate for reading in a multi-word string?</item>
+        <item> int x apsolon=1; What is the value of x?</item>
+        <item>What is the built in library function to adjust the allocated dynamic memory size.</item>
+        <item>The default executable generation on UNIX for a C program is </item>
+
+        <item> Which of the following statement can be used to free the allocated memory?</item>
+        <item>Which of the following is used in mode string to open the file in binary mode?</item>
+        <item>which of these method of httpd class is used to write urlcacheEntry object into local disk?</item>
+        <item>which of these keywords id used to prevent content of a variable from being modified?</item>
+    </string-array>
+
+</resources>

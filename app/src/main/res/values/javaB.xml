@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="javaB">
+        <item>int</item>
+        <item>identifier</item>
+        <item>writer</item>
+        <item>final</item>
+        <item>clone()</item>
+        <item>+=</item>
+        <item> lesser than </item>
+        <item>type wrapping</item>
+        <item>file writer</item>
+        <item>super </item>
+        <item>void exit()</item>
+        <item>class</item>
+        <item>polymorphism</item>
+        <item>writeToDisk()</item>
+        <item>static</item>
+    </string-array>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="get_CppQuestion">
+        <item>. Which classes allow primitive types to be accessed as objects?</item>
+        <item>When is std::bad_alloc exception thrown?</item>
+        <item> Which one of the following is not a fundamental data type in C++</item>
+        <item>Identify the invalid constant used in fseek() function</item>
+        <item> Which of the following correctly describes C++ language?</item>
+        <item>Which of the following keyword supports dynamic method </item>
+        <item>Which of the following is the most preferred way of throwing and handling exceptions?</item>
+        <item>Which of the following is not true about preprocessor directives</item>
+        <item>A continue statement causes execution to skip to</item>
+        <item>Which of the following is not recommended in a header file?.</item>
+        <item>Seek time is</item>
+        <item> The conditional compilation</item>
+        <item> class derived: public base1, public base2 { } is an example of</item>
+        <item>How do we declare an ‘interface’ class?</item>
+        <item>which of these keywords id used to prevent content of a variable from being modified?</item>
+    </string-array>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="javaD">
+        <item>char Sequence</item>
+        <item>this</item>
+        <item>None</item>
+        <item>Variable</item>
+        <item>Object paste()</item>
+        <item>-</item>
+        <item>=</item>
+        <item>type </item>
+        <item>reader</item>
+        <item>Lower </item>
+        <item>void()</item>
+        <item>final</item>
+        <item>wrapping</item>
+        <item>writeDiskcache()</item>
+        <item>first</item>
+    </string-array>
+</resources>

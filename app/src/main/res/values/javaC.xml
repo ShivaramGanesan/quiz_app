@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="javaC">
+        <item>boolean</item>
+        <item>all the above</item>
+        <item>file</item>
+        <item>Constant</item>
+        <item>Object Clone()</item>
+        <item>and</item>
+        <item>greater than</item>
+        <item>type conversion</item>
+        <item>file input stream</item>
+        <item>this </item>
+        <item>void destroy()</item>
+        <item>method</item>
+        <item>abstraction</item>
+        <item>writecache()()</item>
+        <item>final</item>
+    </string-array>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="javaAnswer">
+        <item>boolean</item>
+        <item>keyword</item>
+        <item>String</item>
+        <item>final</item>
+        <item>Object Clone()</item>
+        <item>+</item>
+        <item>Greater than </item>
+        <item>type wrapping</item>
+        <item>file reader</item>
+        <item>Super </item>
+        <item>void destroy()</item>
+        <item>Object</item>
+        <item>Encapsulation</item>
+        <item>writeDiskcache()</item>
+        <item>final</item>
+    </string-array>
+</resources>

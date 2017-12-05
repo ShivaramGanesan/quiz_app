@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="get_Cpp_B">
+        <item>virtual</item>
+        <item>When alloc function fails</item>
+        <item>String</item>
+        <item>void country</item>
+        <item>dynamically typed language</item>
+        <item> virtual</item>
+        <item> throw by refernce</item>
+        <item> they are processed</item>
+        <item>while loop in exit condition</item>
+        <item> class definitions</item>
+        <item> polymorphic</item>
+        <item>reflection</item>
+        <item>static table per class</item>
+        <item>dynamic</item>
+        <item>appending</item>
+    </string-array>
+</resources>

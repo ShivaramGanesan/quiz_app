@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="getJavaQuestion">
+        <item>which of these data type value is returned by equals() method of string class?</item>
+        <item> which of these cannot be used for a variable name in java?</item>
+        <item> which of these class is not a member class of java.io.package?</item>
+        <item>which of these keywords can be used to prevent method overriding?</item>
+        <item> which of these method of object class can clone an object?</item>
+        <item> which of the operatiors can be used to concatenate two or more string objects?</item>
+        <item> which right shift operator preserves the sign of the value?</item>
+        <item> which of these is a process of converting a simple data type into a class?</item>
+        <item> which of these class is used to read characters in a file?</item>
+        <item> which of these keywords is used to refer to member of base class from a sub class?</item>
+        <item> which of these following method of process class can terminate a process?</item>
+        <item> which of these cannot be declared static?</item>
+        <item>which of these is supported by method overriding in java?</item>
+        <item>which of these method of httpd class is used to write urlcacheEntry object into local disk?</item>
+        <item>which of these keywords id used to prevent content of a variable from being modified?</item>
+    </string-array>
+</resources>

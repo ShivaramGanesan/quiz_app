@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="get_C_C">
+        <item>x</item>
+        <item>math.h</item>
+        <item>pf is a function pointer</item>
+        <item>SEEK_BEG</item>
+        <item>round-up(5.77)</item>
+        <item>Octal system</item>
+        <item>near: 2, far: 4, huge: 4</item>
+        <item>-2</item>
+        <item>realloc</item>
+        <item>a.out </item>
+        <item>void destroy()</item>
+
+        <item>vanish(var-name);</item>
+        <item>B</item>
+        <item>cache()</item>
+        <item>return</item>
+    </string-array>
+
+</resources>

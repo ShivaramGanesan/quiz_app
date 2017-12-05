@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="get_Cpp_D">
+        <item>wrapper</item>
+        <item>When delete operator cannot delete teh allocated </item>
+        <item>wchar_t</item>
+        <item>void_country</item>
+        <item> type_id</item>
+        <item> type id</item>
+        <item> throw the pointer</item>
+        <item>end with semi colon</item>
+        <item>condition is true</item>
+        <item> next iteration of loop</item>
+        <item> static</item>
+        <item>remove(var-name);</item>
+        <item>appending</item>
+        <item>write</item>
+        <item>void</item>
+    </string-array>
+</resources>
